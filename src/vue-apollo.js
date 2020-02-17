@@ -13,8 +13,10 @@ const AUTH_TOKEN = 'apollo-token'
 
 // Http endpoint
 const httpEndpoint =
-  process.env.VUE_APP_GRAPHQL_HTTP || 'http://localhost:4000/graphql'
-
+  // process.env.VUE_APP_GRAPHQL_HTTP || 'http://localhost:4000/graphql'
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:4000/'
+    : 'https://animeql.unending.xyz/'
 // Config
 const defaultOptions = {
   // You can use `https` for secure connection (recommended in production)

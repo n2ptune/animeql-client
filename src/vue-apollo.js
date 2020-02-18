@@ -16,7 +16,7 @@ const httpEndpoint =
   // process.env.VUE_APP_GRAPHQL_HTTP || 'http://localhost:4000/graphql'
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:4000/'
-    : 'https://animeql.unending.xyz/'
+    : 'https://animeql.now.sh/'
 // Config
 const defaultOptions = {
   // You can use `https` for secure connection (recommended in production)

@@ -3,8 +3,17 @@ query Anime($id: String!) {
     id
     type
     attributes {
+      canonicalTitle
+      synopsis
+      favoritesCount
       createdAt
       updatedAt
+      coverImage {
+        original
+      }
+      posterImage {
+        large
+      }
     }
   }
 }

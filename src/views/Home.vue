@@ -9,11 +9,13 @@
         <div v-else-if="error">
           Error
         </div>
-        <anime-card-wrapper
-          v-else-if="data"
-          :animes="data.animes"
-          :links="data.links"
-        />
+        <transition name="scale" mode="out-in">
+          <anime-card-wrapper
+            v-if="data"
+            :animes="data.animes"
+            :links="data.links"
+          />
+        </transition>
       </template>
     </apollo-query>
   </div>
@@ -30,3 +32,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.scale-enter-active,
+.scale-leave-active {
+  transform: scale(0.5);
+  opacity: 0;
+  transition: transform 0.45s ease-in-out, opacity 0.45s ease-in-out;
+}
+.scale-enter-to,
+.scale-leave {
+  transform: scale(1);
+  opacity: 1;
+}
+</style>

@@ -1,0 +1,10 @@
+query Anime($id: String!) {
+  anime(id: $id) {
+    id
+    type
+    attributes {
+      createdAt
+      updatedAt
+    }
+  }
+}

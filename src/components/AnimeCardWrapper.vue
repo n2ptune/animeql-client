@@ -17,10 +17,11 @@ export default {
 
 <style scoped>
 .wrapper {
+  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 2rem;
-  margin: 0 auto;
+  margin: -4rem auto 3rem auto;
 }
 </style>

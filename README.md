@@ -1,24 +1,21 @@
-# vue-apollo
+# AnimeQL-Client
 
-## Project setup
-```
-yarn install
-```
+This service is a full stack service using GraphQL Apollo Client, Kitsu Open API and Vue.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+- [Kitsu Open API](https://kitsu.docs.apiary.io/)
+- [Vue-Apollo Client](https://vue-apollo.netlify.com/)
+- [GraphQL-Yoga](https://github.com/prisma-labs/graphql-yoga)
+- [Vue 2.6.11](https://vuejs.org/)
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Separated the front-end and back-end repositories. this repository is front-end. here [Back-End Repository (With GraphQL Yoga)](https://github.com/n2ptune/animeql-server)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Development
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Developing this service requires a server and a client.
+
+Download the repository from the two repositories using the `git clone` command.
+
+- [https://github.com/n2ptune/animeql-client](https://github.com/n2ptune/animeql-client)
+- [https://github.com/n2ptune/animeql-server](https://github.com/n2ptune/animeql-server)
+
+Server has one command to start server that 4000 port on nodemon by default `yarn dev`

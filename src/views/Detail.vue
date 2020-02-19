@@ -13,7 +13,6 @@
       </div>
       <div v-else-if="data">
         <detail-wrapper :anime="data.anime" />
-        <poster-image :cover-image="data.anime.attributes.posterImage.large" />
       </div>
     </template>
   </apollo-query>
@@ -21,12 +20,10 @@
 
 <script>
 import DetailWrapper from '@/components/detail/DetailWrapper.vue'
-import PosterImage from '@/components/detail/PosterImage.vue'
 
 export default {
   components: {
-    DetailWrapper,
-    PosterImage
+    DetailWrapper
   }
 }
 </script>

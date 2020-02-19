@@ -2,9 +2,9 @@
   <div class="home">
     <main-header />
     <apollo-query :query="require('@/graphql/AnimesAndLinks.graphql')">
-      <template v-slot="{ result: { loading, error, data } }">
-        <div v-if="loading" :style="{ fontSize: '5rem', textAlign: 'center' }">
-          Loading...
+      <template v-slot="{ result: { error, data }, isLoading }">
+        <div v-if="isLoading" class="loading">
+          Fetching from GraphQL Server....
         </div>
         <div v-else-if="error">
           Error
@@ -44,5 +44,10 @@ export default {
 .scale-leave {
   transform: scale(1);
   opacity: 1;
+}
+.loading {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 3rem;
 }
 </style>

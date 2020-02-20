@@ -19,3 +19,13 @@ Download the repository from the two repositories using the `git clone` command.
 - [https://github.com/n2ptune/animeql-server](https://github.com/n2ptune/animeql-server)
 
 Server has one command to start server that 4000 port on nodemon by default `yarn dev`
+
+## Demo
+
+There are two pictures for the detail page and the home page.
+
+![home](./assets/home.png)
+
+![detail](./assets/detail.png)
+
+See the page for [details.](https://anime.unending.xyz/)

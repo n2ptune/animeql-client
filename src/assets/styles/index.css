@@ -1,8 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Noto+Sans+KR:400,700|Noto+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans JP', 'Noto Sans KR',
-    'Noto Sans', sans-serif;
-  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans', 'Noto Sans JP',
+    'Noto Sans KR', sans-serif;
+}
+
+.font-header {
+  font-family: 'Leckerli One', cursive;
+}
+
+:root {
+  --gray-900: #212529;
+  --gray-800: #343a40;
+  --gray-700: #495057;
+  --gray-600: #868e96;
+  --gray-500: #adb5bd;
+  --gray-400: #ced4da;
+  --gray-300: #dee2e6;
+  --gray-200: #e9ecef;
+  --gray-100: #f8f9fa;
 }

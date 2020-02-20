@@ -4,8 +4,8 @@
     :variables="{ id: $route.params.id }"
     class="query"
   >
-    <template v-slot="{ result: { loading, error, data } }">
-      <div v-if="loading">
+    <template v-slot="{ result: { error, data }, isLoading }">
+      <div v-if="isLoading">
         Loading...
       </div>
       <div v-else-if="error">
@@ -27,10 +27,3 @@ export default {
   }
 }
 </script>
-
-<style>
-html,
-body {
-  min-height: 100%;
-}
-</style>

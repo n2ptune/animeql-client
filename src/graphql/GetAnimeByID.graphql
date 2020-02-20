@@ -3,6 +3,9 @@ query Anime($id: String!) {
     id
     type
     attributes {
+      averageRating
+      episodeLength
+      totalLength
       canonicalTitle
       synopsis
       favoritesCount

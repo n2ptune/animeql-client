@@ -9,13 +9,14 @@ query Anime($id: String!) {
       canonicalTitle
       synopsis
       favoritesCount
-      createdAt
-      updatedAt
-      coverImage {
-        original
-      }
       posterImage {
         large
+      }
+      abbreviatedTitles
+      titles {
+        en_jp
+        en_us
+        ja_jp
       }
     }
   }

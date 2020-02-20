@@ -57,7 +57,7 @@ article {
   width: 100%;
 }
 h2 {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -70,7 +70,7 @@ p {
   margin: 0 0 1rem 0;
 }
 .meta .name {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: var(--gray-600);
 }
 .meta .value {
@@ -84,11 +84,17 @@ p {
     max-width: 700px;
     padding: 1rem;
   }
+  h2 {
+    font-size: 2.25rem;
+  }
   p {
     display: block;
   }
   .meta {
     display: flex;
+  }
+  .meta .name {
+    font-size: 1.4rem;
   }
   .meta .item {
     margin: 0 2rem;

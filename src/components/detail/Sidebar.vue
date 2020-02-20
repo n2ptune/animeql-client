@@ -4,10 +4,11 @@
       <template>
         일본식 영어 표기법으로는
         <span class="strong">{{ enjp }}</span
-        >이고, 영어 로는 <span class="strong">{{ enus }}</span
+        >이고, 영어로는 <span class="strong">{{ enus }}</span
         >로 쓴다. 일본어로는 <span class="strong">{{ jajp }}</span
         >로 쓴다. 정식 명칭은
-        <span class="strong">{{ anime.attributes.canonicalTitle }}</span>
+        <span class="strong">{{ anime.attributes.canonicalTitle }}</span
+        >이다.
       </template>
     </block>
     <block title="평점 & 점수">

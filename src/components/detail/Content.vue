@@ -1,16 +1,30 @@
 <template>
-  <div class="content"></div>
+  <div class="container">
+    asdf
+  </div>
 </template>
 
 <script>
-// import PosterImage from '@/components/detail/PosterImage.vue'
-
 export default {
-  components: {
-    // PosterImage
-  },
   props: ['anime']
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.container {
+  height: 100%;
+  background-color: red;
+  margin: 8rem auto;
+  width: 95%;
+}
+@media screen and (min-width: 768px) and (max-width: 1225px) {
+  .container {
+    width: 856px;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .container {
+    width: 1100px;
+  }
+}
+</style>

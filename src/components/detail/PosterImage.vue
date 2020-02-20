@@ -9,6 +9,7 @@ export default {
 </script>
 
 <style scoped>
+/* original width: 550px, height: 780px */
 .poster-image {
   display: block;
   width: 225px;

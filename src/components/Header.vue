@@ -1,7 +1,9 @@
 <template>
   <header>
     <div class="font-header">
-      {{ siteName }}
+      <router-link to="/">
+        {{ siteName }}
+      </router-link>
     </div>
   </header>
 </template>
@@ -13,6 +15,13 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
 header {
   padding: 1rem;
 }

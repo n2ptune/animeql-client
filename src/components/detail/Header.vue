@@ -32,13 +32,16 @@ header {
   width: 100%;
   height: 340px;
   background-color: var(--gray-900);
+  display: flex;
+  justify-content: center;
 }
 section {
   display: flex;
   justify-content: center;
-  padding: 0 2rem;
+  align-items: center;
+  padding: 0 1rem;
   color: var(--gray-300);
-  height: 100%;
+  height: auto;
 }
 section * {
   margin: 0 1rem;

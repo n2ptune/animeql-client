@@ -14,7 +14,7 @@
     <block title="평점 & 점수">
       <template>
         <span class="ratings">
-          최저 점수가 준 유저가
+          최저 점수를 준 유저가
           <span class="strong">{{ getRatings[0] }}</span
           >명, 최고 점수를 준 유저가
           <span class="strong">{{ getRatings[1] }}</span

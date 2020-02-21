@@ -38,7 +38,7 @@ section.wrapper {
   justify-content: center;
   display: flex;
   height: 100%;
-  margin: 8rem auto;
+  margin: 3rem auto;
   width: 95%;
 }
 @media screen and (max-width: 870px) {

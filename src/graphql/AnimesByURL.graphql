@@ -1,0 +1,30 @@
+query AnimesByURL($url: String!) {
+  animesByURL(url: $url) {
+    id
+    type
+    attributes {
+      createdAt
+      updatedAt
+      canonicalTitle
+      averageRating
+      status
+      startDate
+      endDate
+      episodeCount
+      episodeLength
+      totalLength
+      ratingRank
+      popularityRank
+      synopsis
+      posterImage {
+        small
+      }
+    }
+  }
+  linksByURL(url: $url) {
+    first
+    prev
+    next
+    last
+  }
+}

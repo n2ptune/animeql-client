@@ -11,7 +11,7 @@ export default {
   components: {
     AnimeCard
   },
-  props: ['animes', 'links']
+  props: ['animes']
 }
 </script>
 

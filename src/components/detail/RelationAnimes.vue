@@ -3,6 +3,12 @@
     <div v-if="$apollo.queries.relation.loading" class="loading">
       데이터 불러오는 중...
     </div>
+    <div
+      v-else-if="!$apollo.queries.relation.loading && !relation.length"
+      class="loading"
+    >
+      데이터가 없습니다. T^T
+    </div>
     <anime-card
       v-for="anime in relation"
       :key="anime.attributes.posterImage.small"

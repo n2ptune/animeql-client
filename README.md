@@ -29,8 +29,3 @@ There are two pictures for the detail page and the home page.
 ![detail](./assets/detail.png)
 
 See the page for [details.](https://anime.unending.xyz/)
-
-## Todo
-
-- View relation genres or categories animation in detail page
-- Infinite loading spinner and page loading component detail page

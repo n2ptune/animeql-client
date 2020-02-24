@@ -1,0 +1,10 @@
+query Relation($id: String!) {
+  relation(id: $id) {
+    id
+    attributes {
+      posterImage {
+        small
+      }
+    }
+  }
+}

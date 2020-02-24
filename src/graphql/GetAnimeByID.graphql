@@ -3,6 +3,11 @@ query Anime($id: String!) {
     id
     type
     attributes {
+      ageRating
+      nextRelease
+      status
+      startDate
+      endDate
       averageRating
       episodeLength
       totalLength

@@ -4,6 +4,7 @@ query Relation($id: String!) {
     attributes {
       posterImage {
         tiny
+        small
       }
     }
   }

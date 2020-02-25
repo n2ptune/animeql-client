@@ -7,5 +7,10 @@ module.exports = {
         '@': path.join(__dirname, 'src/')
       }
     }
+  },
+  pluginOptions: {
+    apollo: {
+      lintGQL: false
+    }
   }
 }

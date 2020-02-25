@@ -12,7 +12,7 @@ export default {
 /* original width: 550px, height: 780px */
 .poster-image {
   display: block;
-  width: 130px;
+  width: 140px;
   height: 190px;
   border-radius: 7px;
   box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.44);

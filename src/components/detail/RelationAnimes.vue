@@ -11,8 +11,8 @@
     </div>
     <anime-card
       v-for="anime in relation"
-      :key="anime.attributes.posterImage.small"
-      :image="anime.attributes.posterImage.small"
+      :key="anime.attributes.posterImage.tiny"
+      :image="anime.attributes.posterImage.tiny"
       :link="anime.id"
     />
   </section>

@@ -25,12 +25,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  line-height: 2rem;
 }
 .title,
 .subtitle {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
+  margin: 0.3rem 0;
 }
 .title {
   font-size: 2.4rem;
@@ -38,6 +38,7 @@
 }
 .subtitle {
   font-size: 1.3rem;
+  padding: 0 2rem;
 }
 strong {
   font-weight: bold;

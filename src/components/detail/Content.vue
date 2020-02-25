@@ -25,7 +25,7 @@
           </div>
         </template>
       </block>
-      <block title="비슷한 장르의 애니메이션">
+      <block title="비슷한 카테고리를 가진 애니메이션">
         <template>
           <div class="content">
             <relation-animes :id="anime.id" />

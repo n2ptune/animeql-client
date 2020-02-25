@@ -3,7 +3,6 @@ query Relation($id: String!) {
     id
     attributes {
       posterImage {
-        tiny
         small
       }
     }
